@@ -14,16 +14,20 @@ public class PlayerLauncher : MonoBehaviour {
 	[SerializeField]
 	private float timeBetweenThrows = 0;
 
+	[SerializeField]
+	private GameObject disabledIndicator = null;
+
 	private float throwTimer = 0;
 
 	private bool throwEnabled = true;
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
 		eventSystem = FindObjectOfType<EventSystem>();
 		soundcontroller = GameObject.FindObjectOfType<SoundController>();
 
 		throwEnabled = true;
+		disabledIndicator.SetActive(false);
 	}
 	
 	// Update is called once per frame
@@ -56,5 +60,11 @@ public class PlayerLauncher : MonoBehaviour {
 
 	public void SetThrowEnabled (bool change) {
 		throwEnabled = change;
+
+		if (throwEnabled) {
+			disabledIndicator.SetActive(false);
+		} else {
+			disabledIndicator.SetActive(true);
+		}
 	}
 }

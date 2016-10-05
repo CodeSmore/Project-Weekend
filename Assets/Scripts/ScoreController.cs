@@ -9,10 +9,8 @@ public class ScoreController : MonoBehaviour {
 
 	[SerializeField]
 	private Text finalScoreText = null;
-	[SerializeField]
-	private Text highScoreText = null;
 
-	private int currentScore = 0;
+	private static int currentScore = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -36,15 +34,9 @@ public class ScoreController : MonoBehaviour {
 
 	public void UpdateEndPanelScores () {
 		finalScoreText.text = currentScore.ToString();
+	}
 
-		int highScore = PlayerPrefsManager.GetHighScore();
-
-		if (currentScore > highScore) {
-			highScore = currentScore;
-
-			PlayerPrefsManager.SetHighScore(highScore);
-		}
-
-		highScoreText.text = highScore.ToString();
+	public static int GetScore () {
+		return currentScore;
 	}
 }

@@ -7,6 +7,7 @@ public class BonusController : MonoBehaviour {
 	private Grinder[] grinders = null;
 
 	private ConveyorController conveyorController;
+	private bool enemyDestroyed = false, readyToResetBonus = false, canDeployed = false;
 
 	// Use this for initialization
 	void Start () {
@@ -15,7 +16,16 @@ public class BonusController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		if (readyToResetBonus && enemyDestroyed) {
+			// reset bonus values
+			foreach (Grinder eachGrinder in grinders) {
+				eachGrinder.ResetBonusValue();
+			}
+
+			enemyDestroyed = false;
+			readyToResetBonus = false;
+			canDeployed = false;
+		}
 	}
 
 	public void UpdateBonusObjective () {
@@ -27,14 +37,16 @@ public class BonusController : MonoBehaviour {
 			}
 		}
 
-		if (reset) {
+		if (reset && !canDeployed) {
 			Debug.Log("Spawn Bonus Can");
 			conveyorController.SpawnObstacleCan();
+			canDeployed = true;
 
-			// reset bonus values
-			foreach (Grinder eachGrinder in grinders) {
-				eachGrinder.ResetBonusValue();
-			}
+			readyToResetBonus = true;
 		}
+	}
+
+	public void ConfirmEnemyDestroyed () {
+		enemyDestroyed = true;
 	}
 }

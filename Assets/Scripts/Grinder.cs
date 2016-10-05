@@ -15,6 +15,7 @@ public class Grinder : MonoBehaviour {
 
 	[SerializeField]
 	private int baseBonusValue = 5;
+	private int bonusValue;
 	[SerializeField]
 	private float bonusModifier = 1.5f;
 
@@ -62,7 +63,9 @@ public class Grinder : MonoBehaviour {
 	void SubtractBonusValue () {
 		if (currentBonusValue != 0) {
 			currentBonusValue--;
-		} else {
+		} 
+
+		if (currentBonusValue == 0) {
 			bonusController.UpdateBonusObjective();
 		}
 	}
@@ -76,19 +79,21 @@ public class Grinder : MonoBehaviour {
 	}
 
 	public void ResetBonusValue () {
-		int bonusIncrement = Mathf.FloorToInt(baseBonusValue * bonusModifier);
+		
+		currentBonusValue = bonusValue;
 
-		if (bonusIncrement < 1) {
-			bonusIncrement = 1;
-		}
-
-		baseBonusValue += bonusIncrement;
-
-		currentBonusValue = baseBonusValue;
 		UpdateBonusValueText();
 	}
 
 	void SpawnNormalCan () {
 		conveyorController.SpawnNormalCan();
 	}
+
+	public void SetBonusValue (GameObject enemyObject) {
+		if (enemyObject.tag == "MiniBoss") {
+			bonusValue = baseBonusValue * 2;
+		} else {
+			bonusValue = baseBonusValue;
+		}
+	} 
 }
