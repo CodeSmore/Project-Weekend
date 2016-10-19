@@ -38,7 +38,6 @@ public class BonusController : MonoBehaviour {
 		}
 
 		if (reset && !canDeployed) {
-			Debug.Log("Spawn Bonus Can");
 			conveyorController.SpawnObstacleCan();
 			canDeployed = true;
 

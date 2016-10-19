@@ -15,11 +15,8 @@ public class ScoreController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		scoreText.text = "0";
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+
+		currentScore = 0;
 	}
 
 	public void AddScore (int score) {

@@ -16,8 +16,6 @@ public class Grinder : MonoBehaviour {
 	[SerializeField]
 	private int baseBonusValue = 5;
 	private int bonusValue;
-	[SerializeField]
-	private float bonusModifier = 1.5f;
 
 	private int currentBonusValue = 0;
 
@@ -46,8 +44,8 @@ public class Grinder : MonoBehaviour {
 		SubtractBonusValue();
 		UpdateBonusValueText();
 		SpawnNormalCan();
-		soundController.CatGrindClip();
-		soundController.MeatSplatClip();
+		soundController.ProjectileGrindClip();
+//		soundController.MeatSplatClip();
 	}
 
 	void UpdateBonusValueText () {

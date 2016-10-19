@@ -6,11 +6,14 @@ public class CanController : MonoBehaviour {
 	private ConveyorController conveyorController;
 	private Rigidbody2D canRigidbody;
 	private SoundController soundController;
+	private SpriteRenderer spriteRenderer;
 
 	private bool onConveyor = true;
 
 	private float currentXPosition;
 
+	[SerializeField]
+	private Sprite[] canSprites = null;
 	[SerializeField]
 	private Vector2 hitForce = Vector2.zero;
 
@@ -20,6 +23,9 @@ public class CanController : MonoBehaviour {
 		conveyorController = GameObject.FindObjectOfType<ConveyorController>();
 		canRigidbody = GetComponent<Rigidbody2D>();
 		soundController = GameObject.FindObjectOfType<SoundController>();
+
+		spriteRenderer = GetComponent<SpriteRenderer>();
+		spriteRenderer.sprite = canSprites[PlayerPrefsManager.GetTheme()];
 
 		currentXPosition = gameObject.transform.position.x;
 	}

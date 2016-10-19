@@ -1,0 +1,325 @@
+fileFormatVersion: 2
+guid: e4da4ff04bb4511468e30e0d63c29c77
+timeCreated: 1475957178
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CGStandardAnimationFinal_0
+    21300002: CGStandardAnimationFinal_1
+    21300004: CGStandardAnimationFinal_2
+    21300006: CGStandardAnimationFinal_3
+    21300008: CGStandardAnimationFinal_4
+    21300010: CGStandardAnimationFinal_5
+    21300012: CGStandardAnimationFinal_6
+    21300014: CGStandardAnimationFinal_7
+    21300016: CGStandardAnimationFinal_8
+    21300018: CGStandardAnimationFinal_9
+    21300020: CGStandardAnimationFinal_10
+    21300022: CGStandardAnimationFinal_11
+    21300024: CGStandardAnimationFinal_12
+    21300026: CGStandardAnimationFinal_13
+    21300028: CGStandardAnimationFinal_14
+    21300030: CGStandardAnimationFinal_15
+    21300032: CGStandardAnimationFinal_16
+    21300034: CGStandardAnimationFinal_17
+    21300036: CGStandardAnimationFinal_18
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 150
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CGStandardAnimationFinal_0
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 822
+        width: 259
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CGStandardAnimationFinal_1
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 818
+        width: 254
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CGStandardAnimationFinal_2
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 799
+        width: 218
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CGStandardAnimationFinal_3
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 856
+        width: 254
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CGStandardAnimationFinal_4
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 851
+        width: 263
+        height: 313
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CGStandardAnimationFinal_5
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 834
+        width: 228
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CGStandardAnimationFinal_6
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 799
+        width: 201
+        height: 373
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CGStandardAnimationFinal_7
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 791
+        width: 199
+        height: 381
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CGStandardAnimationFinal_8
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 791
+        width: 199
+        height: 373
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CGStandardAnimationFinal_9
+      rect:
+        serializedVersion: 2
+        x: 3033
+        y: 788
+        width: 198
+        height: 376
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CGStandardAnimationFinal_10
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 466
+        width: 264
+        height: 327
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CGStandardAnimationFinal_11
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 452
+        width: 282
+        height: 339
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CGStandardAnimationFinal_12
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 497
+        width: 258
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CGStandardAnimationFinal_13
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 487
+        width: 288
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CGStandardAnimationFinal_14
+      rect:
+        serializedVersion: 2
+        x: 2737
+        y: 410
+        width: 466
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CGStandardAnimationFinal_15
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 117
+        width: 277
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CGStandardAnimationFinal_16
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 115
+        width: 483
+        height: 103
+      alignment: 9
+      pivot: {x: 0.5, y: 1.73}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CGStandardAnimationFinal_17
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 146
+        width: 269
+        height: 331
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CGStandardAnimationFinal_18
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 144
+        width: 487
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5, y: 1.73}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

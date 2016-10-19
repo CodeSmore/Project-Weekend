@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿ using UnityEngine;
 using System.Collections;
 
 public class SoundController : MonoBehaviour {
@@ -8,28 +8,31 @@ public class SoundController : MonoBehaviour {
 	[SerializeField]
 	private AudioClip kickCan = null;
 	[SerializeField]
-	private AudioClip catGrind = null;
+	private AudioClip coversCycle = null;
+	[SerializeField]
+	private AudioClip targetTapped = null;
+	[SerializeField]
+	private AudioClip[] projectileGrind = null;
 	[SerializeField]
 	private AudioClip meatSplat = null;
 	[SerializeField]
-	private AudioClip cannonFire = null;
+	private AudioClip[] cannonFire = null;
+	[SerializeField]
+	private AudioClip[] standardEnemyEnterClip = null, bossOneEnterClip = null, bossTwoEnterClip = null, bossThreeEnterClip = null;
+	[SerializeField]
+	private AudioClip[] standardEnemyFallClip = null, bossOneFallClip = null, bossTwoFallClip = null, bossThreeFallClip = null;
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
 		audioSource = GetComponent<AudioSource>();
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
 	}
 
 	public void KickCanClip () {
 		audioSource.PlayOneShot(kickCan);
 	}
 
-	public void CatGrindClip () {
-		audioSource.PlayOneShot(catGrind);
+	public void ProjectileGrindClip () {
+		audioSource.PlayOneShot(projectileGrind[PlayerPrefsManager.GetTheme()]);
 	}
 
 	public void MeatSplatClip () {
@@ -37,6 +40,50 @@ public class SoundController : MonoBehaviour {
 	}
 
 	public void CannonFireClip () {
-		audioSource.PlayOneShot(cannonFire);
+		audioSource.PlayOneShot(cannonFire[PlayerPrefsManager.GetTheme()]);
+	}
+
+	public void CoversCycleClip () {
+		audioSource.PlayOneShot(coversCycle);
+	}
+
+	public void TargetTappedClip () {
+		audioSource.PlayOneShot(targetTapped);
+	}
+
+
+
+	public void PlayStandardEnemyEntryClip () {
+		audioSource.PlayOneShot(standardEnemyEnterClip[PlayerPrefsManager.GetTheme()]);
+	}
+
+	public void PlayBossOneEntryClip () {
+		audioSource.PlayOneShot(bossOneEnterClip[PlayerPrefsManager.GetTheme()]);
+	}
+
+	public void PlayBossTwoEntryClip () {
+		audioSource.PlayOneShot(bossTwoEnterClip[PlayerPrefsManager.GetTheme()]);
+	}
+
+	public void PlayBossThreeEntryClip () {
+		audioSource.PlayOneShot(bossThreeEnterClip[PlayerPrefsManager.GetTheme()]);
+	}
+
+
+
+	public void PlayStandardEnemyFallClip () {
+		audioSource.PlayOneShot(standardEnemyFallClip[PlayerPrefsManager.GetTheme()]);
+	}
+
+	public void PlayBossOneFallClip () {
+		audioSource.PlayOneShot(bossOneFallClip[PlayerPrefsManager.GetTheme()]);
+	}
+
+	public void PlayBossTwoFallClip () {
+		audioSource.PlayOneShot(bossTwoFallClip[PlayerPrefsManager.GetTheme()]);
+	}
+
+	public void PlayBossThreeFallClip () {
+		audioSource.PlayOneShot(bossThreeFallClip[PlayerPrefsManager.GetTheme()]);
 	}
 }

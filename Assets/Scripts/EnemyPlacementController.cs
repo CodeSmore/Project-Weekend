@@ -8,16 +8,12 @@ public class EnemyPlacementController : MonoBehaviour {
 	private int enemiesDestroyedCount = 0;
 
 	[SerializeField]
-	private int enemiesBetweenMiniBoss = 2;
+	private int intervalRangeMin = 1, intervalRangeMax = 5;
+	private int enemiesBetweenMiniBoss;
 
-	// Use this for initialization
+
 	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+		RandomizeEnemiesBetweenMiniBoss();
 	}
 
 	public void EnemyDestroyed (GameObject enemyGameObject) {
@@ -48,5 +44,11 @@ public class EnemyPlacementController : MonoBehaviour {
 		int rand = Mathf.FloorToInt(Random.Range(1f, enemyGameObject.Length - 0.01f));
 
 		Instantiate(enemyGameObject[rand]);
+
+		RandomizeEnemiesBetweenMiniBoss();
+	}
+
+	void RandomizeEnemiesBetweenMiniBoss() {
+		enemiesBetweenMiniBoss = Mathf.FloorToInt(Random.Range(intervalRangeMin, intervalRangeMax + 0.99f));
 	}
 }

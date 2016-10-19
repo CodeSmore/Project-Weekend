@@ -1,0 +1,353 @@
+fileFormatVersion: 2
+guid: d912d4a7d7878ea4da519e854a62ede7
+timeCreated: 1476730076
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Trump Skins_0
+    21300002: Trump Skins_1
+    21300004: Trump Skins_2
+    21300006: Trump Skins_3
+    21300008: Trump Skins_4
+    21300010: Trump Skins_5
+    21300012: Trump Skins_6
+    21300014: Trump Skins_7
+    21300016: Trump Skins_8
+    21300018: Trump Skins_9
+    21300020: Trump Skins_10
+    21300022: Trump Skins_11
+    21300024: Trump Skins_13
+    21300026: Trump Skins_14
+    21300028: Trump Skins_15
+    21300030: Trump Skins_16
+    21300032: Trump Skins_17
+    21300034: Trump Skins_18
+    21300036: Trump Skins_19
+    21300038: Trump Skins_20
+    21300040: Trump Skins_21
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 200
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Trump Skins_0
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 2412
+        width: 1069
+        height: 584
+      alignment: 9
+      pivot: {x: 0.5, y: 1.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trump Skins_1
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 2495
+        width: 463
+        height: 886
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trump Skins_2
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 2493
+        width: 413
+        height: 893
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trump Skins_3
+      rect:
+        serializedVersion: 2
+        x: 2419
+        y: 2503
+        width: 481
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trump Skins_4
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2533
+        width: 455
+        height: 853
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trump Skins_5
+      rect:
+        serializedVersion: 2
+        x: 3601
+        y: 2510
+        width: 453
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trump Skins_6
+      rect:
+        serializedVersion: 2
+        x: 4127
+        y: 2513
+        width: 453
+        height: 853
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trump Skins_7
+      rect:
+        serializedVersion: 2
+        x: 4682
+        y: 2505
+        width: 450
+        height: 861
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trump Skins_8
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1650
+        width: 1058
+        height: 584
+      alignment: 9
+      pivot: {x: 0.5, y: 1.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trump Skins_9
+      rect:
+        serializedVersion: 2
+        x: 2252
+        y: 1654
+        width: 1488
+        height: 584
+      alignment: 9
+      pivot: {x: 0.5, y: 1.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trump Skins_10
+      rect:
+        serializedVersion: 2
+        x: 3307
+        y: 2064
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trump Skins_11
+      rect:
+        serializedVersion: 2
+        x: 4001
+        y: 1637
+        width: 1062
+        height: 585
+      alignment: 9
+      pivot: {x: 0.5, y: 1.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trump Skins_13
+      rect:
+        serializedVersion: 2
+        x: 5055
+        y: 2040
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trump Skins_14
+      rect:
+        serializedVersion: 2
+        x: 3307
+        y: 2026
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trump Skins_15
+      rect:
+        serializedVersion: 2
+        x: 5064
+        y: 2002
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trump Skins_16
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 455
+        width: 542
+        height: 906
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trump Skins_17
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 456
+        width: 534
+        height: 882
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trump Skins_18
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 465
+        width: 579
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trump Skins_19
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 455
+        width: 574
+        height: 913
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trump Skins_20
+      rect:
+        serializedVersion: 2
+        x: 3808
+        y: 455
+        width: 446
+        height: 913
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trump Skins_21
+      rect:
+        serializedVersion: 2
+        x: 4479
+        y: 456
+        width: 466
+        height: 912
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

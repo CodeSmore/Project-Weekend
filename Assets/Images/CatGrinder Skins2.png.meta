@@ -1,0 +1,227 @@
+fileFormatVersion: 2
+guid: 45f3db71eb6a40043994e70dd6c7627a
+timeCreated: 1475700637
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CatGrinder Skins2_0
+    21300002: CatGrinder Skins2_1
+    21300004: CatGrinder Skins2_2
+    21300006: CatGrinder Skins2_3
+    21300008: CatGrinder Skins2_4
+    21300010: CatGrinder Skins2_5
+    21300012: CatGrinder Skins2_6
+    21300014: CatGrinder Skins2_7
+    21300016: CatGrinder Skins2_8
+    21300018: CatGrinder Skins2_9
+    21300020: CatGrinder Skins2_10
+    21300022: CatGrinder Skins2_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 400
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CatGrinder Skins2_0
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1914
+        width: 480
+        height: 410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CatGrinder Skins2_1
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 1882
+        width: 651
+        height: 554
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CatGrinder Skins2_2
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 1791
+        width: 389
+        height: 639
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CatGrinder Skins2_3
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 892
+        width: 454
+        height: 852
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CatGrinder Skins2_4
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 871
+        width: 450
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CatGrinder Skins2_5
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 873
+        width: 449
+        height: 851
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CatGrinder Skins2_6
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 866
+        width: 450
+        height: 858
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CatGrinder Skins2_7
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 140
+        width: 1055
+        height: 583
+      alignment: 9
+      pivot: {x: 0.5, y: 1.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CatGrinder Skins2_8
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 559
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CatGrinder Skins2_9
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 556
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CatGrinder Skins2_10
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 518
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CatGrinder Skins2_11
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 493
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -11,7 +11,7 @@ public class HighScoreManager : MonoBehaviour {
 	[SerializeField]
 	private InputField nameInputField = null;
 	[SerializeField]
-	private Button submitButton = null, tryAgainButton = null, highScoresButton = null, quitButton = null;
+	private Button submitButton = null;
 
 	private int newScore;
 
@@ -27,9 +27,6 @@ public class HighScoreManager : MonoBehaviour {
 
 		if (isNewHighScore()) {
 			newHighScoreText.SetActive(true);
-			tryAgainButton.interactable = false;
-			quitButton.interactable = false;
-			highScoresButton.interactable = false;
 
 			nameInputField.gameObject.SetActive(true);
 			submitButton.gameObject.SetActive(true);
@@ -81,10 +78,6 @@ public class HighScoreManager : MonoBehaviour {
 	public void SubmitScore () {
 		PlayerPrefsManager.SetPlayerName(nameInputField.text);
 		AddScoreToHighScoreList();
-
-		tryAgainButton.interactable = true;
-		quitButton.interactable = true;
-		highScoresButton.interactable = true;
 
 		nameInputField.interactable = false;
 		submitButton.interactable = false;

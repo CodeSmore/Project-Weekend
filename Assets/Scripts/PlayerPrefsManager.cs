@@ -3,20 +3,21 @@ using System.Collections;
 
 public class PlayerPrefsManager : MonoBehaviour {
 
-	const string HIGH_SCORE_KEY = "high_score";
-
-	public static void SetHighScore (int newScore) {
-		PlayerPrefs.SetInt(HIGH_SCORE_KEY, newScore);
-	}
-
-	public static int GetHighScore () {
-		return PlayerPrefs.GetInt(HIGH_SCORE_KEY, 0);
-	}
+//	const string HIGH_SCORE_KEY = "high_score";
+//
+//	public static void SetHighScore (int newScore) {
+//		PlayerPrefs.SetInt(HIGH_SCORE_KEY, newScore);
+//	}
+//
+//	public static int GetHighScore () {
+//		return PlayerPrefs.GetInt(HIGH_SCORE_KEY, 0);
+//	}
 
 
 
 
 	private const string PLAYER_NAME_KEY = "player_name";
+	private const string CURRENT_THEME_KEY = "current_theme";
 
 	private const string HIGH_SCORE_NAME_1_KEY = "high_score_name_1";
 	private const string HIGH_SCORE_NAME_2_KEY = "high_score_name_2";
@@ -40,6 +41,14 @@ public class PlayerPrefsManager : MonoBehaviour {
 	private const string HIGH_SCORE_9_KEY = "high_score_9";
 	private const string HIGH_SCORE_10_KEY = "high_score_10";
 
+
+	public static int GetTheme () {
+		return PlayerPrefs.GetInt(CURRENT_THEME_KEY, 0);	
+	} 
+
+	public static void SetTheme (int newTheme) {
+		PlayerPrefs.SetInt(CURRENT_THEME_KEY, newTheme);
+	}
 
 	public static void SetPlayerName (string name) {
 		PlayerPrefs.SetString(PLAYER_NAME_KEY, name);

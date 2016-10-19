@@ -1,0 +1,255 @@
+fileFormatVersion: 2
+guid: b7a6a267c9c99604583571f8e0e18aa6
+timeCreated: 1476047595
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ZombieBossAnimationsFinal_0
+    21300002: ZombieBossAnimationsFinal_1
+    21300004: ZombieBossAnimationsFinal_2
+    21300006: ZombieBossAnimationsFinal_3
+    21300008: ZombieBossAnimationsFinal_4
+    21300010: ZombieBossAnimationsFinal_5
+    21300012: ZombieBossAnimationsFinal_6
+    21300014: ZombieBossAnimationsFinal_7
+    21300016: ZombieBossAnimationsFinal_8
+    21300018: ZombieBossAnimationsFinal_9
+    21300020: ZombieBossAnimationsFinal_10
+    21300022: ZombieBossAnimationsFinal_11
+    21300024: ZombieBossAnimationsFinal_12
+    21300026: ZombieBossAnimationsFinal_13
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 70
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ZombieBossAnimationsFinal_0
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1059
+        width: 262
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZombieBossAnimationsFinal_1
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1030
+        width: 233
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZombieBossAnimationsFinal_2
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1035
+        width: 265
+        height: 327
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZombieBossAnimationsFinal_3
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1045
+        width: 469
+        height: 113
+      alignment: 9
+      pivot: {x: 0.5, y: 1.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZombieBossAnimationsFinal_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 568
+        width: 271
+        height: 407
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZombieBossAnimationsFinal_5
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 858
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZombieBossAnimationsFinal_6
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 561
+        width: 218
+        height: 423
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZombieBossAnimationsFinal_7
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 551
+        width: 345
+        height: 442
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZombieBossAnimationsFinal_8
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 557
+        width: 218
+        height: 423
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZombieBossAnimationsFinal_9
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 542
+        width: 359
+        height: 291
+      alignment: 9
+      pivot: {x: 0.5, y: 0.65}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZombieBossAnimationsFinal_10
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 210
+        width: 253
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZombieBossAnimationsFinal_11
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 166
+        width: 227
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZombieBossAnimationsFinal_12
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 171
+        width: 250
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZombieBossAnimationsFinal_13
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 182
+        width: 464
+        height: 102
+      alignment: 9
+      pivot: {x: 0.5, y: 1.78}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

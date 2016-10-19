@@ -33,13 +33,13 @@ public class PlayerLauncher : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetMouseButton(0) && eventSystem.currentSelectedGameObject == null && throwEnabled) {
-			ThrowSnowball();
+			ThrowProjectile();
 		}
 
 		throwTimer += Time.deltaTime;
 	}
 
-	private void ThrowSnowball () {
+	private void ThrowProjectile () {
 		if (throwTimer > timeBetweenThrows) {
 			// first calculate the vector from player launch position to where screen was tapped
 			// and normalize it.
@@ -51,6 +51,7 @@ public class PlayerLauncher : MonoBehaviour {
 			// Then, instantiate the object and apply force according to throwVector
 			GameObject thrownObject = Instantiate (projectile, transform.position, Quaternion.identity) as GameObject;
 			thrownObject.GetComponent<Rigidbody2D>().AddForce (throwVector * throwForce);
+
 
 			soundcontroller.CannonFireClip();
 
